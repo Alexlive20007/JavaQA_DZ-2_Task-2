@@ -10,8 +10,7 @@ public class Main {
         int bonusAmount; // количество бонусных рублей
         if (topUpAmount > 1000) {
             bonusAmount = bonusPer100;
-        }
-        else {
+        } else {
             bonusAmount = 0;
         }
 
